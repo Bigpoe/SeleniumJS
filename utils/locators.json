@@ -1,0 +1,32 @@
+{
+    "targetUrl": "https://castlemaniagames.com/",
+    "credentials": {
+        "valildEmail": "retrovision@mail.com",
+        "valildPassword": "retrovision",
+        "invalildEmail": "wrongemailn@mail.",
+        "invalildPassword": "wrongpassword"
+    },
+    "header": {
+        "searchIcon": "//div[@class=\"site-header__search site-header__icon\"]",
+        "searchbox": "//input[@class=\"search-header__input search__input ui-autocomplete-input bc-sf-search-box\"]",
+        "loginButton": "//a[@class=\"site-header__icon site-header__account\"]"
+    },
+    "homePage": {
+        "shopNowButton": "//div[@class=\"feature-row__item feature-row__text feature-row__text--left\"]/a"
+    },
+    "loginPage": {
+        "emailInput": "//input[@id=\"CustomerEmail\"]",
+        "passwordInput": "//input[@id=\"CustomerPassword\"]"
+    },
+    "productList": {
+        "productsList": "//div[@id=\"bc-sf-filter-right\"]/div/div/div/div[@class=\"h4 grid-view-item__title\"]",
+        "manufacturerList": "//div[@data-id=\"pf_v_manufacturer\"]/div[@class=\"bc-sf-filter-block-content jspScrollable\"]",
+        "hdRetrovisionManufacturer": "//div[@data-id=\"pf_v_manufacturer\"]/div[2]/div[@class=\"jspContainer\"]/div[@class=\"jspPane\"]/ul/li/a[@data-title=\"HD Retrovision\"]",
+        "snesRetrovisionCable": "//div[@class=\"grid__item small--one-half medium-up--one-quarter\"]/div/a[@href=\"/collections/all/products/hd-retrovision-snes\"]"
+    },
+    "productDetail": {
+        "preorderButton": "//button[@id=\"AddToCart-product-template\"]",
+        "addToCardButton": "//button[@name=\"add\"]",
+        "tvDisclaimer": "//div[@id=\"infiniteoptions-container\"]/div/span/fieldset/label/input[@type=\"checkbox\"]"
+    }   
+}
